@@ -4,8 +4,10 @@ Try running some of the following tasks:
 
 ```shell
 yarn
-# Modify the parameters in the .env file
-npx hardhat compile
+# Rename .env.example to .env and modify the parameters in the .env file
 npx hardhat run scripts/deploy.js --network ropsten
+npx hardhat compile
 nom run dev
 ```
+
+Try it on http://spielen.games/
